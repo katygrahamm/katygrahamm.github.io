@@ -1858,7 +1858,7 @@ input, select, textarea {
 			.feature-list h3:before {
 				display: block;
 				color: #fff;
-				background: black url("images/overlay.png");
+				background: black;
 				border-radius: 2.5em;
 				text-align: center;
 				width: 2.5em;
@@ -2029,7 +2029,7 @@ input, select, textarea {
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: #f3f3f3;
 				color: black;
 			}
 
@@ -2383,7 +2383,7 @@ input, select, textarea {
 			}
 
 			#footer .feature-list h3:before {
-				background: black url("images/overlay.png");
+				background: black;
 			}
 
 /* Copyright */
