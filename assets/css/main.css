@@ -1456,7 +1456,7 @@ input, select, textarea {
 	}
 
 		header.style1 h2 {
-			font-weight: 700;
+			font-weight: 900;
 			font-size: 2em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
@@ -1607,6 +1607,19 @@ input, select, textarea {
 		.image.centered {
 			display: block;
 			margin: 0 0 2em 0;
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-align-items: center;
+			-webkit-align-items: center;
+			-ms-align-items: center;
+			align-items: center;
+			-moz-justify-content: center;
+			-webkit-justify-content: center;
+			-ms-justify-content: center;
+			justify-content: center;
+			position: relative;
 		}
 
 			.image.centered img {
@@ -2043,8 +2056,25 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Header */
+/* App Pic */
+	#apppic {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		position: relative;
+	}
 
+/* Header */
+ 
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
